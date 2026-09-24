@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter / Anaconda
+.ipynb_checkpoints/
+anaconda_projects/
+
+# Generated files
+data/campuspulse.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

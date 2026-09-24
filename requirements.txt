@@ -1,0 +1,20 @@
+# CampusPulse - Python 3.11 or newer
+# Install with:  pip install -r requirements.txt
+
+# --- Web app ---
+streamlit>=1.50,<2
+plotly>=6.0
+
+# --- Data & ML ---
+pandas>=3.0,<4
+numpy>=2.0,<3
+joblib>=1.4
+
+# The bundled .pkl models were saved with scikit-learn 1.9.1.
+# Keep this pinned, otherwise loading them may warn or fail.
+scikit-learn==1.9.1
+
+# --- Optional: only needed to run notebooks/CampusPulse.ipynb ---
+# matplotlib>=3.8
+# seaborn>=0.13
+# jupyterlab>=4.0
